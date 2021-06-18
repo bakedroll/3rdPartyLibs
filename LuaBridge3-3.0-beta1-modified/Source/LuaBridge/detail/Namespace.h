@@ -119,6 +119,8 @@ class Namespace : public detail::Registrar
   }
 #endif
 
+  protected:
+
     /**
       Factored base to reduce template instantiations.
     */
@@ -992,7 +994,6 @@ class Namespace : public detail::Registrar
         }
     };
 
-private:
     //----------------------------------------------------------------------------
     /**
         Open the global namespace for registrations.
